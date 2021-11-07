@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    scroll-snap-type: y mandatory;
+  }   */
+body{
+    height: 100vh;
+    min-width: fit-content;
+    width: 100vw;
+    background-color: rgb(252, 252, 228);
+}
+.top{
+    display: flex;
+    align-items:flex-start;
+    width: 100vw;
+    background-color: rgb(66, 65, 65);
+}
+.headerPizza{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    width: 100vw;
+    margin-top: 27px;
+}
+h1{
+    font-family: PizzaFont;
+    font-style: solid;
+    font-weight: lighter;
+    padding: 6px;
+    width: fit-content;
+    font-size: 40px;
+    color: red;
+    text-shadow: 2px 2px 20px yellow;
+}
+@font-face {
+    font-family: PizzaFont;
+    src: url(/Weekend_projects/Pizza/img/Kapizza-r8w7.ttf);
+  }
+  .animPizza{
+    -webkit-transform:scale(0.4);
+    -moz-transform:scale(0.4);
+    -ms-transform:scale(0.4);
+    transform:scale(0.4);
+  }
+  .foot{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  }
+.navbar{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    /* position: fixed; */
+}
+a{
+    color: rgb(206, 20, 20);
+    text-decoration:none;
+    background-color: transparent;
+    padding: 20px 4px;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: right;
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+.navbar a:hover {
+    background-color: red;
+    color: white;
+    padding: 20px 4px;
+  }
+.p1{
+    display: flex;
+      /* justify-content: center; */
+      /* align-items: flex-end; */
+      flex-direction: column;
+}
+.about{
+    padding: 50px 50px;
+}
+.img1{
+    width: 100vw;
+    height: 400px;
+    background-image: url(/Weekend_projects/Pizza/img/img1.webp);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+h3{
+    text-align: center;
+}
+.contact{
+    border: 5px black solid;
+    border-radius: 50%;
+    height:400px;
+    width: min-content;
+    padding: 20px 20px ;
+    background-color: turquoise;
+    text-align: center;
+    
+}
+.contact img{
+    transform: scale(0.8) ;
+}
+.contactD{
+    display: flex;
+    justify-content: center;
+
+}
